@@ -1,0 +1,21 @@
+// async function createUser(firstName, lastName, maidenName, age) {
+//     const [result] = await pool.query(
+//         `INSERT INTO users 
+//         (firstName, lastName, maidenName, age) 
+//         VALUES (?, ?, ?, ?)`,
+//         [firstName, lastName, maidenName, age]
+//     );
+
+//     return result;
+// }
+
+// async function updateUser(firstName, lastName, maidenName, age, id) {
+//     const result = await pool.query(
+//         `UPDATE users 
+//          SET firstName = ?, lastName = ?, maidenName = ?, age = ?
+//          WHERE id = ?`,
+//         [firstName, lastName, maidenName, age, id]
+//     );
+
+//     return result;
+// }
